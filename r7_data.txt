@@ -1,0 +1,16 @@
+  {
+    id: "r7",
+    slug: "r7",
+    name: "R7",
+    category: "SUPER DEPORTIVAS",
+    image: "/images/motorcycles/r7.jpg",
+    gallery: ["/images/motorcycles/r7.jpg"],
+    price: 59000000,
+    priceLabel: "Desde",
+    description: "La R7 de Yamaha te ofrece el mejor rendimiento en su categoría. Descubre la tecnología y diseño que solo Yamaha puede brindar.",
+    colors: [
+        { "name": "Icon Blue", "hex": "#0033cc" },
+        { "name": "Midnight Black", "hex": "#0a0a0a" }
+      ],
+    featureBanners: [
+    

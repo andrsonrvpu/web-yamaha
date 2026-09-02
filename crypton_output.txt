@@ -1,0 +1,127 @@
+id: "crypton-finn",
+    slug: "crypton-finn",
+    name: "CRYPTON FINN",
+    category: "URBANAS",
+    image: "/images/motorcycles/crypton-finn.png",
+    gallery: ["/images/motorcycles/crypton-finn.png"],
+    price: 9100000,
+    priceLabel: "Desde",
+    description: "La CRYPTON FINN de Yamaha te ofrece el mejor rendimiento en su categoría. Descubre la tecnología y diseño que solo Yamaha puede brindar.",
+    colors: [
+      {
+            "name": "Color 1",
+            "hex": "#d1db11",
+            "image": "/images/motorcycles/colors/crypton-finn-color-0.png"
+          },
+      {
+            "name": "Color 2",
+            "hex": "#294935",
+            "image": "/images/motorcycles/colors/crypton-finn-color-1.png"
+          },
+      {
+            "name": "Color 3",
+            "hex": "#6d6d6d",
+            "image": "/images/motorcycles/colors/crypton-finn-color-2.png"
+          },
+      {
+            "name": "Color 4",
+            "hex": "#d3d3d3",
+            "image": "/images/motorcycles/colors/crypton-finn-color-3.png"
+          }
+],    featureBanners: [
+      {
+            "title": "Inyección Electrónica (FI):",
+            "description": "La inyección electrónica es un sistema que suministra de forma precisa el combustible que el motor necesita según sus condiciones de funcionamiento, lo que se traduce en un encendido fácil, una aceleración suave, menor necesidad de mantenimiento, óptimo aprovechamiento del combustible, menor impacto ambiental y un desempeño confiable en cualquier parte del país.",
+            "image": "/images/motorcycles/features/crypton-finn-feature-0.jpg"
+          },
+      {
+            "title": "Sistema UBS (Unified Brake System):",
+            "description": "El UBS (Mecánico a través de una guaya), es un sistema de frenado vinculado entre el freno delantero y el trasero. Su propósito principal es mejorar la estabilidad y el control al frenar. Cuando el conductor acciona el freno trasero, el sistema distribuye automáticamente una parte de esa fuerza al freno delantero, logrando una frenada equilibrada y eficiente.",
+            "image": "/images/motorcycles/features/crypton-finn-feature-1.jpg"
+          },
+      {
+            "title": "Amigable con el medio ambiente",
+            "description": "Las normas ambientales EURO son estándares internacionales que regulan los límites aceptables de emisiones contaminantes en vehículos, con el objetivo de reducir la contaminación del aire. Estas normas evalúan gases como óxidos de nitrógeno (NOx), hidrocarburos (HC), monóxido de carbono (CO) y partículas. En Colombia, desde el 1 de enero de 2021, se exige el cumplimiento de la norma Euro 3 para todas las motocicletas nuevas, garantizando una operación más limpia y responsable con el medio ambiente.",
+            "image": "/images/motorcycles/features/crypton-finn-feature-2.jpg"
+          },
+      {
+            "title": "Caja Rotativa:",
+            "description": "La caja de velocidades, ahora rotativa, permite pasar de cuarta a neutra cuando la motocicleta está detenida, facilitando la espera y agilizando el arranque.",
+            "image": "/images/motorcycles/features/crypton-finn-feature-3.jpg"
+          },
+      {
+            "title": "Sistema AHO (Automatic Headlight On)",
+            "description": "El sistema AHO (Automatic Headlight On) enciende automáticamente las luces al arrancar el motor, aumentando la visibilidad del motociclista en cualquier condición ambiental como noche, lluvia o neblina, lo que contribuye a reducir el riesgo de accidentes. Además, las luces de posición y las direccionales delanteras están integradas, complementando el estilo moderno de la Crypton Finn.",
+            "image": "/images/motorcycles/features/crypton-finn-feature-4.jpg"
+          },
+      {
+            "title": "Panel de instrumentos renovado:",
+            "description": "El panel de instrumentos de la Crypton Finn incluye una completa gama de indicadores que facilitan la lectura y el control del vehículo: direccionales izquierda y derecha, indicador de marcha, de punto neutro, de fallo de motor, de voltaje bajo de batería, de luz alta, de nivel de combustible, además de odómetro y velocímetro, brindando al conductor información clara y precisa para una conducción segura y eficiente.",
+            "image": "/images/motorcycles/features/crypton-finn-feature-5.jpg"
+          },
+      {
+            "title": "Baúl de gran capacidad:",
+            "description": "Con su baúl de mayor capacidad, la Crypton Finn permite llevar artículospersonales cómodamente.",
+            "image": "/images/motorcycles/features/crypton-finn-feature-6.jpg"
+          },
+      {
+            "title": "Protector de cadena Completo:",
+            "description": "Protege del polvo y reduce el mantenimiento, prolongando la vida útil de la cadena.",
+            "image": "/images/motorcycles/features/crypton-finn-feature-7.jpg"
+          }
+],
+
+    highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
+    specifications: {
+      "Cilindraje": "114 cc",
+      "Peso (con aceite y tanque de gasolina lleno)": "100 kg",
+      "Potencia Máxima": "8.85 Hp a 7000 rpm",
+      "Torque máximo": "9.2 Nm a 5500 rpm",
+      "Tipo de motor": "4 Tiempos SOHC, refrigerado por aire",
+      "Largo total": "1940 mm",
+      "Ancho total": "710 mm",
+      "Altura total": "1095 mm",
+      "Altura al asiento": "775 mm",
+      "Distancia entre ejes": "1235 mm",
+      "Distancia mínima del piso": "155 mm",
+      "Peso (Con aceite y tanque de gasolina lleno)": "100kg",
+      "Disposición de los cilindros": "1 Cilindro inclinado hacia adelante",
+      "Cilindraje:": "114 cc",
+      "Diámetro por carrera": "50.0 mm x 57.9mm",
+      "Relación de compresión:": "9.3:1",
+      "Potencia Máxima:": "8.85 Hp a 7000 rpm",
+      "Arranque:": "Eléctrico y a pedal",
+      "Tipo de lubricación": "Cárter húmedo",
+      "Sistema de alimentación": "Fuel injection",
+      "Capacidad de combustible:": "3.9L (Aprox 1.05 gal)",
+      "Encendido:": "TCI",
+      "Capacidad batería": "12V, 3.0Ah (10HR)",
+      "Batería": "GTZ4V , YTZ4V",
+      "Sistema de reducción primaria": "Engranaje",
+      "Relación de reducción primaria": "2.900 (58/20)",
+      "Sistema de reducción secundaria": "Cadena",
+      "Relación de reducción secundaria": "2.857 (40/14)",
+      "Tipo de embrague": "Multidisco en aceite / Resorte en espiral",
+      "Tipo de transmisión": "Transmisión constante de 4 velocidades",
+      "Relación de transmisión en 1ra": "2.833 (34/12)",
+      "Relación de transmisión en 2da": "1.875 (30/16)",
+      "Relación de transmisión en 3ra": "1.353 (23/17)",
+      "Relación de transmisión en 4ta": "1.045 (23/22)",
+      "Relación de transmisión en 5ta": "—",
+      "Relación de transmisión en 6ta": "—",
+      "Tipo de chasis": "Armazón inferior",
+      "Inclinación": "26°10′",
+      "Avance": "73mm",
+      "Rueda delantera:": "70/90-17 M/C 38P",
+      "Rueda trasera:": "80/90-17 M/C 44P",
+      "Freno delantero:": "Disco",
+      "Freno trasero:": "Tambor (UBS)",
+      "Tipo de suspensión delantera": "Horquilla telescópica",
+      "Tipo de suspensión trasera": "Basculante",
+      "Luz principal": "12V 32W/32W X 1"
+},
+    isNew: false,
+    featured: true,
+    available: true,
+    whatsappMessage: "Hola, estoy interesado en la Yamaha CRYPTON FINN. Quisiera conocer disponibilidad y opciones de compra."
+  }
