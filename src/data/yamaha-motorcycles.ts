@@ -1323,7 +1323,7 @@ export const motorcycles: Motorcycle[] = [
           }
 ],    featureBanners: [
       {
-        title: "YPVS &#8211; Yamaha Power Valve System",
+        title: "YPVS - Yamaha Power Valve System",
         description: "Este sistema, utilizado en motocicletas de 2 tiempos, regula la lumbrera de escape modificando su paso en función de las revoluciones del motor para obtener una mayor potencia de salida. La sincronización adecuada del escape permite al motor funcionar bien en el rango de alta velocidad y potencia, y tener un buen torque a bajas revoluciones.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YAMAHA_YRT_2026_TSC-06676.jpg"
       },
@@ -1399,7 +1399,7 @@ export const motorcycles: Motorcycle[] = [
         { "name": "Icon Blue", "hex": "#0033cc" }
       ],    featureBanners: [
       {
-        title: "YPVS &#8211; Yamaha Power Valve System",
+        title: "YPVS - Yamaha Power Valve System",
         description: "Este sistema, utilizado en motocicletas de 2 tiempos, regula la lumbrera de escape modificando su paso en función de las revoluciones del motor para obtener una mayor potencia de salida. La sincronización adecuada del escape permite al motor funcionar bien en el rango de alta velocidad y potencia, y tener un buen torque a bajas revoluciones.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02664.jpg"
       },
@@ -1488,7 +1488,7 @@ export const motorcycles: Motorcycle[] = [
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YAMAHA_YRT_2026_TSC-06662.jpg"
       },
       {
-        title: "YPVS &#8211; Yamaha Power Valve System",
+        title: "YPVS - Yamaha Power Valve System",
         description: "Este sistema, utilizado en motocicletas de 2 tiempos, regula la lumbrera de escape modificando su paso en función de las revoluciones del motor para obtener una mayor potencia de salida. La sincronización adecuada del escape permite al motor funcionar bien en el rango de alta velocidad y potencia, y tener un buen torque a bajas revoluciones.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02869.jpg"
       }
