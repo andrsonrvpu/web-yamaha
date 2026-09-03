@@ -187,30 +187,37 @@ export const motorcycles: Motorcycle[] = [
 ],    featureBanners: [
       {
         title: "Blue Core",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_5.jpg"
       },
       {
         title: "Fuel Injection",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_6.jpg"
       },
       {
         title: "Freno de disco con ABS",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_7.jpg"
       },
       {
         title: "Tecnología",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_3.jpg"
       },
       {
         title: "Más Comodidad",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_4.jpg"
       },
       {
         title: "Nuevo Tablero",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_1.jpg"
       },
       {
         title: "Menos Emisiones",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_2.jpg"
       }
     ],
@@ -753,18 +760,22 @@ export const motorcycles: Motorcycle[] = [
 ],    featureBanners: [
       {
         title: "Motor de 155 cc con VVA",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-4.jpg"
       },
       {
         title: "Diseño Ágil y Agresivo",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-1.jpg"
       },
       {
         title: "Tecnología de Iluminación LED",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-3.jpg"
       },
       {
         title: "Suspensión Delantera Invertida",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-2.jpg"
       }
     ],
@@ -852,26 +863,32 @@ export const motorcycles: Motorcycle[] = [
 ],    featureBanners: [
       {
         title: "¡Nueva cara!",
+        description: "La MT03 posee luces LED, brillantes y energéticamente eficientes, tanto en el faro principal como en el stop y ahora las direccionales, y se caracterizan por su diseño para una excelente iluminación. Además cuenta con el sistema AHO (Automatic Headlight On – Encendido automático de luces) que enciende las luces al momento de encender el motor.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/bannerMT03_2026.jpg"
       },
       {
         title: "Posición de conducción vertical",
+        description: "La ergonomía del conjunto de manillar, asiento y estriberas de la MT03 se ha diseñado para tener una postura de conducción vertical y hace que este modelo resulte uno de los más cómodos y versátiles de su segmento. El tamaño compacto del asiento trasero contrasta con la concentración de componentes en la parte delantera para dar forma a una agresiva silueta desplazada hacia delante.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_1-2.jpg"
       },
       {
         title: "Yamaha Diagnostic Tool (YDT)",
+        description: "La MT03 está preparada para trabajar con la herramienta de diagnostico Yamaha. Con esta herramienta se puede diagnosticar el sistema de inyección de combustible, también se puede ver el funcionamiento en tiempo real de los sensores y actuadores. Una función muy importante del YDT es la de guardar el registro de cada revisión realizada a la motocicleta, este registro se guarda en la “nube” y está disponible para consultarlo cada vez que se conecte esta herramienta. ",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_3-2.jpg"
       },
       {
         title: "Frenos con ABS",
+        description: "La MT03 utiliza una unidad de ABS de dos canales, para evitar el bloqueo tanto de la rueda delantera como la trasera al momento de una frenada fuerte o desaceleración súbita.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_4-2-e1763581978835.jpg"
       },
       {
         title: "Amigable con el medio ambiente",
+        description: "La MT03 cumple con la regulación EURO3, incorpora en su diseño dispositivos tecnológicos que ayudan a la reducción de emisiones contaminantes, como son el catalizador de 3 vías y el sensor de oxígeno que está ubicado en la parte media del tubo de escape, haciéndola mas amigable con el medio ambiente. ",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_27.jpg"
       },
       {
         title: "Suspensión invertida",
+        description: "La horquilla delantera invertida con tubos internos de 37 mm proporciona una buena sensación durante las curvas y el frenado, debido a que su área de superficie de contacto (superficie deslizante) es más larga entre los tubos interior y exterior. Tiene la ventaja de poder proporcionar una mayor rigidez cuando la suspensión está completamente extendida.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_3-2.jpg"
       }
     ],
@@ -960,34 +977,42 @@ export const motorcycles: Motorcycle[] = [
 ],    featureBanners: [
       {
         title: "Motor CP2",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247631.jpg"
       },
       {
         title: "Nuevo Diseño",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
       },
       {
         title: "Frenos ABS",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247632.jpg"
       },
       {
         title: "Comfort para piloto y pasajero",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247633.jpg"
       },
       {
         title: "Mejor control de la MT07",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247634.jpg"
       },
       {
         title: "Iluminación de nueva generación",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
       },
       {
         title: "Nuevo tablero TFT",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247635.jpg"
       },
       {
         title: "Gestión visual del flujo de aire",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
       }
     ],
@@ -1298,11 +1323,13 @@ export const motorcycles: Motorcycle[] = [
           }
 ],    featureBanners: [
       {
-        title: "YPVS - Yamaha Power Valve System",
+        title: "YPVS &#8211; Yamaha Power Valve System",
+        description: "Este sistema, utilizado en motocicletas de 2 tiempos, regula la lumbrera de escape modificando su paso en función de las revoluciones del motor para obtener una mayor potencia de salida. La sincronización adecuada del escape permite al motor funcionar bien en el rango de alta velocidad y potencia, y tener un buen torque a bajas revoluciones.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YAMAHA_YRT_2026_TSC-06676.jpg"
       },
       {
         title: "Chasis tipo cuna",
+        description: "El chasis tipo cuna, logra el equilibrio perfecto entre rendimiento preciso en las curvas y estabilidad de manejo. El resultado es una motocicleta de mejor manejo con una sensación más ligera, una mejor absorción de baches y una mayor tracción, lo que permite al conductor entrar en las curvas con mayor confianza y más opciones de línea",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YAMAHA_YRT_2026_TSC-06653.jpg"
       }
     ],
@@ -1372,11 +1399,13 @@ export const motorcycles: Motorcycle[] = [
         { "name": "Icon Blue", "hex": "#0033cc" }
       ],    featureBanners: [
       {
-        title: "YPVS - Yamaha Power Valve System",
+        title: "YPVS &#8211; Yamaha Power Valve System",
+        description: "Este sistema, utilizado en motocicletas de 2 tiempos, regula la lumbrera de escape modificando su paso en función de las revoluciones del motor para obtener una mayor potencia de salida. La sincronización adecuada del escape permite al motor funcionar bien en el rango de alta velocidad y potencia, y tener un buen torque a bajas revoluciones.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02664.jpg"
       },
       {
         title: "Chasis tipo cuna",
+        description: "El chasis tipo cuna, logra el equilibrio perfecto entre rendimiento preciso en las curvas y estabilidad de manejo. El resultado es una motocicleta de mejor manejo con una sensación más ligera, una mejor absorción de baches y una mayor tracción, lo que permite al conductor entrar en las curvas con mayor confianza y más opciones de línea",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02664.jpg"
       }
     ],
@@ -1445,18 +1474,22 @@ export const motorcycles: Motorcycle[] = [
       ],    featureBanners: [
       {
         title: "Chasis tipo cuna de aluminio",
+        description: "El chasis tipo cuna en aluminio, logra el equilibrio perfecto entre rendimiento preciso en las curvas y estabilidad de manejo. El resultado es una motocicleta de mejor manejo con una sensación más ligera, una mejor absorción de baches y una mayor tracción, lo que permite al conductor entrar en las curvas con mayor confianza y más opciones de línea",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02682.jpg"
       },
       {
         title: "Suspensión trasera KYB (Speed sensitive system)",
+        description: "La Suspensión delantera es totalmente ajustable y sensible a la velocidad, para ofrecer un equilibrio excepcional entre el manejo y la absorción de baches.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02681.jpg"
       },
       {
         title: "Sensor TPS",
+        description: "Carburador de alta precisión con Sensor TPS para una nítida respuesta del acelerador.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YAMAHA_YRT_2026_TSC-06662.jpg"
       },
       {
-        title: "YPVS - Yamaha Power Valve System",
+        title: "YPVS &#8211; Yamaha Power Valve System",
+        description: "Este sistema, utilizado en motocicletas de 2 tiempos, regula la lumbrera de escape modificando su paso en función de las revoluciones del motor para obtener una mayor potencia de salida. La sincronización adecuada del escape permite al motor funcionar bien en el rango de alta velocidad y potencia, y tener un buen torque a bajas revoluciones.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02869.jpg"
       }
     ],
@@ -1528,30 +1561,37 @@ export const motorcycles: Motorcycle[] = [
       ],    featureBanners: [
       {
         title: "Sensor TPS",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02702.jpg"
       },
       {
         title: "Aplicación Power Tuner",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/2022_YZ250_DPBSE_USA_YMUS_5549_72dpi_4000x2250_1920x748_MY22_MX_Key_Visuals_Sound_YZ250_001.jpg"
       },
       {
         title: "Chasis tipo cuna aluminio",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02324.jpg"
       },
       {
         title: "Mapas",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/2022_YZ250_DPBSE_USA_YMUS_5549_72dpi_4000x2250_1920x748_MY22_MX_Key_Visuals_Sound_YZ250_001.jpg"
       },
       {
         title: "Traction Control System",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02324.jpg"
       },
       {
         title: "Launch Control System",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02730.jpg"
       },
       {
         title: "Admisión en posición adelantada",
+        description: "",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02712.jpg"
       }
     ],
