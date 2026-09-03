@@ -50,7 +50,7 @@ export default function FeatureSlider({ banners }: FeatureSliderProps) {
           </div>
 
           {/* Banner Principal (Right Side) */}
-          <div className="w-full lg:w-3/4 relative rounded-2xl overflow-hidden shadow-2xl bg-black">
+          <div className="w-full lg:w-3/4 relative rounded-2xl overflow-hidden shadow-2xl bg-black min-h-[350px] md:min-h-[450px] lg:min-h-0">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeIndex}

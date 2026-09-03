@@ -42,7 +42,7 @@ export function MotorcycleDetail({ motorcycle }: { motorcycle: Motorcycle }) {
     <div className="bg-white">
       {/* Breadcrumbs */}
       <div className="bg-yamaha-gray py-4 border-b border-yamaha-light-gray">
-        <div className="container-yamaha flex items-center text-sm text-gray-500 font-medium">
+        <div className="container-yamaha flex flex-wrap items-center text-sm text-gray-500 font-medium">
           <Link href="/" className="hover:text-yamaha-red transition-colors">Inicio</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/motos" className="hover:text-yamaha-red transition-colors">Motos</Link>
@@ -57,7 +57,7 @@ export function MotorcycleDetail({ motorcycle }: { motorcycle: Motorcycle }) {
           {/* Galería */}
           <div className="flex flex-col gap-4">
             <motion.div 
-              className="aspect-[4/3] bg-yamaha-gray flex items-center justify-center p-8 border border-yamaha-light-gray"
+              className="aspect-[4/3] bg-yamaha-gray flex items-center justify-center p-4 md:p-8 border border-yamaha-light-gray w-full max-w-full overflow-hidden"
               key={activeImage}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -104,7 +104,7 @@ export function MotorcycleDetail({ motorcycle }: { motorcycle: Motorcycle }) {
             {motorcycle.colors && motorcycle.colors.length > 0 && (
               <div className="mb-8">
                 <h3 className="font-bold text-yamaha-dark uppercase mb-4 tracking-wider">Colores Disponibles</h3>
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-4">
                   {motorcycle.colors.map((color) => {
                     const isSelected = activeImage === (color.image || motorcycle.image);
                     return (
