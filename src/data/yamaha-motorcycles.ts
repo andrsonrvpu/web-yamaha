@@ -15,7 +15,7 @@ export interface Motorcycle {
   featured: boolean;
   available: boolean;
   whatsappMessage: string;
-  featureBanners?: { title: string; description: string; image: string }[];
+  featureBanners?: { title: string; description?: string; image: string }[];
 }
 
 export const CATEGORIES = [

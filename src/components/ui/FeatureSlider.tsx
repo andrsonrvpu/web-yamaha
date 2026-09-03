@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 interface FeatureBanner {
   title: string;
-  description: string;
+  description?: string;
   image: string;
 }
 
