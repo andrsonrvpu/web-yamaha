@@ -6,11 +6,23 @@ import { siteConfig } from "@/config/site";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.compraryamahamotos.com"),
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  keywords: ["Yamaha", "Motos", "Colombia", "Motocicletas", "Yamaha Colombia", "Comprar moto Yamaha", "Concesionario Yamaha"],
+  authors: [{ name: siteConfig.businessName }],
+  creator: siteConfig.businessName,
+  openGraph: {
+    type: "website",
+    locale: "es_CO",
+    url: "https://www.compraryamahamotos.com",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+  },
   icons: {
     icon: "/favicon.ico",
   },
@@ -35,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="scroll-smooth overflow-x-hidden">
+    <html lang="es-CO" className="scroll-smooth overflow-x-hidden">
       <body className={`${inter.variable} font-sans bg-background text-foreground flex flex-col min-h-screen pt-16 md:pt-20 overflow-x-hidden w-full relative`}>
         {process.env.NEXT_PUBLIC_GA_ID && <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GA_ID} />}
         <Header />
