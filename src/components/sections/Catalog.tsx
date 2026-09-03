@@ -1,14 +1,29 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { MotorcycleCard } from "@/components/ui/MotorcycleCard";
 import { motorcycles, CATEGORIES } from "@/data/yamaha-motorcycles";
 import { Search } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function Catalog() {
+  const searchParams = useSearchParams();
+  const categoryParam = searchParams.get("categoria");
+
   const [activeCategory, setActiveCategory] = useState<string>("TODAS");
   const [searchQuery, setSearchQuery] = useState("");
+
+  useEffect(() => {
+    if (categoryParam) {
+      const matched = CATEGORIES.find(c => c.toUpperCase() === categoryParam.toUpperCase());
+      if (matched) {
+        setActiveCategory(matched);
+      } else if (categoryParam.toUpperCase() === "TODAS") {
+        setActiveCategory("TODAS");
+      }
+    }
+  }, [categoryParam]);
 
   const filteredMotorcycles = useMemo(() => {
     return motorcycles.filter((moto) => {

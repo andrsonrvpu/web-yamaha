@@ -16,8 +16,8 @@ export default function Home() {
       id: "blue-days",
       imageSrc: "/images/hero-blue-days.png",
       mobileImageSrc: "/images/mobile-hero-1.png",
-      primaryCtaText: "Cotiza Aquí",
-      primaryCtaLink: "/contacto",
+      primaryCtaText: "WhatsApp",
+      primaryCtaLink: "https://wa.me/573102615894",
       secondaryCtaText: "Ver Modelos",
       secondaryCtaLink: "/motos"
     },
@@ -25,19 +25,19 @@ export default function Home() {
       id: "second-banner",
       imageSrc: "/images/hero-banner-2.png",
       mobileImageSrc: "/images/mobile-hero-2.png",
-      primaryCtaText: "COTIZA AQUÍ",
-      primaryCtaLink: "/cotizar",
+      primaryCtaText: "WhatsApp",
+      primaryCtaLink: "https://wa.me/573102615894",
       secondaryCtaText: "VER MODELOS",
-      secondaryCtaLink: "/modelos",
+      secondaryCtaLink: "/motos",
     },
     {
       id: "third-banner",
       imageSrc: "/images/hero-banner-3.png",
       mobileImageSrc: "/images/mobile-hero-3.png",
-      primaryCtaText: "COTIZA AQUÍ",
-      primaryCtaLink: "/cotizar",
+      primaryCtaText: "WhatsApp",
+      primaryCtaLink: "https://wa.me/573102615894",
       secondaryCtaText: "VER MODELOS",
-      secondaryCtaLink: "/modelos",
+      secondaryCtaLink: "/motos",
     }
   ];
 

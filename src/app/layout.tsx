@@ -20,6 +20,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
+  userScalable: false,
 };
 
 import { Header } from "@/components/layout/Header";
@@ -34,11 +35,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="scroll-smooth">
-      <body className={`${inter.variable} font-sans bg-background text-foreground flex flex-col min-h-screen pt-16 md:pt-20`}>
+    <html lang="es" className="scroll-smooth overflow-x-hidden">
+      <body className={`${inter.variable} font-sans bg-background text-foreground flex flex-col min-h-screen pt-16 md:pt-20 overflow-x-hidden w-full relative`}>
         {process.env.NEXT_PUBLIC_GA_ID && <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GA_ID} />}
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow overflow-x-hidden w-full">
           {children}
         </main>
         <Footer />

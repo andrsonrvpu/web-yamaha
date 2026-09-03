@@ -13,6 +13,7 @@ interface MotorcycleCardProps {
 
 export function MotorcycleCard({ motorcycle }: MotorcycleCardProps) {
   const [activeColorIndex, setActiveColorIndex] = useState(0);
+  
   // Formatear precio a formato colombiano COP
   const formattedPrice = new Intl.NumberFormat("es-CO", {
     style: "currency",

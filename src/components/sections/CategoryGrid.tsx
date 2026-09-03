@@ -51,6 +51,29 @@ export function CategoryGrid() {
                 video.currentTime = 0.001;
               }
             }}
+            onTouchStart={(e) => {
+              const video = e.currentTarget.querySelector("video");
+              if (video) {
+                const playPromise = video.play();
+                if (playPromise !== undefined) {
+                  playPromise.catch(error => console.log("Autoplay prevented:", error));
+                }
+              }
+            }}
+            onTouchEnd={(e) => {
+              const video = e.currentTarget.querySelector("video");
+              if (video) {
+                video.pause();
+                video.currentTime = 0.001;
+              }
+            }}
+            onTouchCancel={(e) => {
+              const video = e.currentTarget.querySelector("video");
+              if (video) {
+                video.pause();
+                video.currentTime = 0.001;
+              }
+            }}
           >
             <Link href={`/motos?categoria=${encodeURIComponent(cat.name)}`} className="block w-full h-full relative">
               {cat.video ? (

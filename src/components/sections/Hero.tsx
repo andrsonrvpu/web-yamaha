@@ -73,7 +73,7 @@ export function Hero({ slides, autoPlayInterval = 5000 }: HeroProps) {
   };
 
   return (
-    <section className="relative w-full h-[50vh] min-h-[400px] md:h-auto md:aspect-[1942/809] overflow-hidden bg-yamaha-dark group">
+    <section className="relative w-full h-[85vh] min-h-[600px] md:h-auto md:aspect-[1942/809] overflow-hidden bg-yamaha-dark group">
       
       {/* Slides Container */}
       <AnimatePresence initial={false} custom={direction}>
