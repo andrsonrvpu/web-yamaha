@@ -62,15 +62,10 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2 order-2 md:order-1">
-            <span className="text-yamaha-red font-bold text-xl tracking-tighter uppercase">
-              YAMAHA
-            </span>
-          </div>
-          <p className="text-sm text-gray-400 text-center order-3 md:order-2">
+          <p className="text-sm text-gray-400 text-center md:text-left">
             © {new Date().getFullYear()} {siteConfig.businessName}. Todos los derechos reservados.
           </p>
-          <div className="flex items-center gap-4 order-1 md:order-3">
+          <div className="flex items-center gap-4">
             <Image 
               src="/images/incolmotos-50-anos.png" 
               alt="50 Años Incolmotos Yamaha" 
@@ -78,6 +73,9 @@ export function Footer() {
               height={120} 
               className="object-contain w-32 md:w-40 h-auto"
             />
+            <span className="text-yamaha-red font-bold text-xl tracking-tighter uppercase">
+              YAMAHA
+            </span>
           </div>
         </div>
       </div>
