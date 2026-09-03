@@ -24,10 +24,6 @@ export function Footer() {
               <MessageCircle className="w-5 h-5 flex-shrink-0" />
               <span className="text-sm">{siteConfig.phone} (WhatsApp)</span>
             </div>
-            <div className="flex items-center gap-3 text-gray-300">
-              <Mail className="w-5 h-5 flex-shrink-0" />
-              <span className="text-sm">{siteConfig.email}</span>
-            </div>
           </div>
 
           {/* Columna 2: Enlaces Rápidos */}

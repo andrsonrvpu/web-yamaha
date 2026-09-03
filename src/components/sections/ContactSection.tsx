@@ -39,14 +39,6 @@ export function ContactSection() {
             </div>
 
             <div className="flex items-start gap-4">
-              <Mail className="w-6 h-6 text-yamaha-red flex-shrink-0" />
-              <div>
-                <span className="block font-bold text-yamaha-dark">Correo Electrónico</span>
-                <span className="text-gray-700">{siteConfig.email}</span>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
               <Clock className="w-6 h-6 text-yamaha-red flex-shrink-0" />
               <div>
                 <span className="block font-bold text-yamaha-dark">Horario de Atención</span>
@@ -77,14 +69,10 @@ export function ContactSection() {
                 <input type="text" id="name" required className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red" />
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4">
                 <div>
                   <label htmlFor="phone" className="block text-sm font-bold text-gray-700 mb-1">Teléfono *</label>
                   <input type="tel" id="phone" required className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red" />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-bold text-gray-700 mb-1">Correo Electrónico</label>
-                  <input type="email" id="email" className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red" />
                 </div>
               </div>
 
