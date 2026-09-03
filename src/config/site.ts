@@ -6,9 +6,9 @@ export const siteConfig = {
   phone: "+57 (310) 261-5894",
   whatsapp: "573102615894",
   email: "contacto@yamaha-colombia.com",
-  address: "Calle Falsa 123, Bogotá, Colombia",
+  address: "Atención a nivel nacional, Colombia",
   businessHours: "Lunes a Viernes: 9:00 AM - 6:00 PM | Sábado: 9:00 AM - 1:00 PM",
-  serviceArea: ["Bogotá", "Cundinamarca", "Boyacá"],
+  serviceArea: ["Todo el territorio nacional", "Envíos a toda Colombia"],
   socials: {
     facebook: "https://facebook.com/yamahacolombia",
     instagram: "https://instagram.com/yamahacolombia",
