@@ -184,7 +184,36 @@ export const motorcycles: Motorcycle[] = [
             "hex": "#0a0a0a",
             "image": "/images/motorcycles/colors/fz-version-30-color-2.png"
           }
-],    featureBanners: [],
+],    featureBanners: [
+      {
+        title: "Blue Core",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_5.jpg"
+      },
+      {
+        title: "Fuel Injection",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_6.jpg"
+      },
+      {
+        title: "Freno de disco con ABS",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_7.jpg"
+      },
+      {
+        title: "Tecnología",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_3.jpg"
+      },
+      {
+        title: "Más Comodidad",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_4.jpg"
+      },
+      {
+        title: "Nuevo Tablero",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_1.jpg"
+      },
+      {
+        title: "Menos Emisiones",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_2.jpg"
+      }
+    ],
 
     highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
     specifications: {
@@ -721,7 +750,24 @@ export const motorcycles: Motorcycle[] = [
             "hex": "#8224e3",
             "image": "/images/motorcycles/colors/mt15-color-2.png"
           }
-],    featureBanners: [],
+],    featureBanners: [
+      {
+        title: "Motor de 155 cc con VVA",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-4.jpg"
+      },
+      {
+        title: "Diseño Ágil y Agresivo",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-1.jpg"
+      },
+      {
+        title: "Tecnología de Iluminación LED",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-3.jpg"
+      },
+      {
+        title: "Suspensión Delantera Invertida",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-2.jpg"
+      }
+    ],
 
     highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
     specifications: {
@@ -803,7 +849,32 @@ export const motorcycles: Motorcycle[] = [
             "hex": "#282828",
             "image": "/images/motorcycles/colors/mt03-color-2.jpg"
           }
-],    featureBanners: [],
+],    featureBanners: [
+      {
+        title: "¡Nueva cara!",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/bannerMT03_2026.jpg"
+      },
+      {
+        title: "Posición de conducción vertical",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_1-2.jpg"
+      },
+      {
+        title: "Yamaha Diagnostic Tool (YDT)",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_3-2.jpg"
+      },
+      {
+        title: "Frenos con ABS",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_4-2-e1763581978835.jpg"
+      },
+      {
+        title: "Amigable con el medio ambiente",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_27.jpg"
+      },
+      {
+        title: "Suspensión invertida",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT03_3-2.jpg"
+      }
+    ],
 
     highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
     specifications: {
@@ -867,72 +938,59 @@ export const motorcycles: Motorcycle[] = [
     category: "HYPER NAKED",
     image: "/images/motorcycles/mt07.png",
     gallery: ["/images/motorcycles/mt07.png"],
-    price: 57000000,
+    price: 52000000,
     priceLabel: "Desde",
     description: "La MT07 de Yamaha te ofrece el mejor rendimiento en su categoría. Descubre la tecnología y diseño que solo Yamaha puede brindar.",
     colors: [
       {
             "name": "Color 1",
-            "hex": "#cccccc",
+            "hex": "#3d4c59",
             "image": "/images/motorcycles/colors/mt07-color-0.png"
           },
       {
             "name": "Color 2",
-            "hex": "#2b2b2b",
+            "hex": "#0033cc",
             "image": "/images/motorcycles/colors/mt07-color-1.png"
           },
       {
             "name": "Color 3",
-            "hex": "#2150d1",
+            "hex": "#0a0a0a",
             "image": "/images/motorcycles/colors/mt07-color-2.png"
           }
 ],    featureBanners: [
       {
-            "title": "ESTILO MINIMALISTA TOTALMENTE NUEVO",
-            "description": "MT-07 ofrece un nuevo look naked con la \"cara\" distintiva del minimalista faro LED, inspirado en el Lado Oscuro de Japón. Ingeniería y tecnología al máximo.",
-            "image": "/images/motorcycles/features/mt07-feature-0.jpg"
-          },
+        title: "Motor CP2",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247631.jpg"
+      },
       {
-            "title": "ACELERADOR ELECTRÓNICO",
-            "description": "El YCC-T (acelerador controlado por chip Yamaha) facilita una nueva generación de ayudas electrónicas y contribuye a una entrega de potencia aún más lineal para crear una mayor conexión entre el piloto y la moto. El Control de Pilotaje (YRC) te permite elegir entre dos mapas de aceleración.",
-            "image": "/images/motorcycles/features/mt07-feature-1.jpg"
-          },
+        title: "Nuevo Diseño",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
+      },
       {
-            "title": "TECNOLOGÍA DE AMPLIFICACIÓN ACÚSTICA",
-            "description": "Para contribuir a una unión visceral entre el piloto y la moto, la MT-07 incorpora un sistema de amplificación de sonido que aprovecha el rugido de admisión de la moto, lo mejora y lo canaliza hacia el piloto para aumentar el placer de conducción.",
-            "image": "/images/motorcycles/features/mt07-feature-2.jpg"
-          },
+        title: "Frenos ABS",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247632.jpg"
+      },
       {
-            "title": "DOBLE DISCO DE FRENO DELANTERO",
-            "description": "con una potencia de frenado nivel superior, la cuarta generación de MT-07 incorpora dos grandes discos de freno delanteros, combinados con unas pinzas de anclaje radial de 4 pistones. Facilitando una frenada fuerte y consistente gracias a una mayor rigidez.",
-            "image": "/images/motorcycles/features/mt07-feature-3.jpg"
-          },
+        title: "Comfort para piloto y pasajero",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247633.jpg"
+      },
       {
-            "title": "SUSPENSIÓN AJUSTABLE",
-            "description": "La nueva horquilla invertida de 41mm ofrece un alto nivel de control y de conexión intuitiva con el neumático delantero, a la vez aporta un aspecto moderno a la MT-07.",
-            "image": "/images/motorcycles/features/mt07-feature-4.jpg"
-          },
+        title: "Mejor control de la MT07",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247634.jpg"
+      },
       {
-            "title": "LLANTAS LIGERAS SPINFORGED",
-            "description": "Contribuyendo a una MT-07 más ligera y ágil, las llantas están fabricadas utilizando la tecnología SpinForged patentada por Yamaha. Esto permite una fundición más fina y ligera, sin comprometer la resistencia.",
-            "image": "/images/motorcycles/features/mt07-feature-5.jpg"
-          },
+        title: "Iluminación de nueva generación",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
+      },
       {
-            "title": "INSTRUMENTACIÓN TFT DE 5\" A TODO COLOR",
-            "description": "La instrumentación TFT de 5 pulgadas de la MT-07 está equipada con múltiples temas y conectividad para celulares a través de una aplicación, por lo que puedes escuchar música, ver notificaciones de llamadas,mensajes entrantes en pantalla y ver mapas de navegación.",
-            "image": "/images/motorcycles/features/mt07-feature-6.jpg"
-          },
+        title: "Nuevo tablero TFT",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247635.jpg"
+      },
       {
-            "title": "MOTOR CP2 EU5 + DE ALTO PAR",
-            "description": "El característico motor bicilíndrico en paralelo, se ha desarrollado utilizando la tecnología de cigüeñal tipo crossplane de Yamaha. Ofreciendo un rendimiento más accesible, un par mejorado, una banda sonora vibrante y cambio de marchas refinado.",
-            "image": "/images/motorcycles/features/mt07-feature-7.jpg"
-          },
-      {
-            "title": "NUEVOS INTERRUPTORES INTUITIVOS",
-            "description": "Los nuevos conjuntos de interruptores integrados en el manillar permiten la ejecución de una gama más amplia de funciones en la MT-07, incluida la conectividad para celulares, la navegación y modos de pilotaje. Los nuevos intermitentes son ahora auto cancelables y ofrecen la función de \"tres destellos\" para cambiar de carril.",
-            "image": "/images/motorcycles/features/mt07-feature-8.jpg"
-          }
-],
+        title: "Gestión visual del flujo de aire",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
+      }
+    ],
 
     highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
     specifications: {
@@ -1238,7 +1296,16 @@ export const motorcycles: Motorcycle[] = [
             "hex": "#1d4ec1",
             "image": "/images/motorcycles/colors/yz65-color-0.jpg"
           }
-],    featureBanners: [],
+],    featureBanners: [
+      {
+        title: "YPVS - Yamaha Power Valve System",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YAMAHA_YRT_2026_TSC-06676.jpg"
+      },
+      {
+        title: "Chasis tipo cuna",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YAMAHA_YRT_2026_TSC-06653.jpg"
+      }
+    ],
 
     highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
     specifications: {
@@ -1296,18 +1363,23 @@ export const motorcycles: Motorcycle[] = [
     slug: "yz85lw",
     name: "YZ85LW",
     category: "COMPETICIÓN",
-    image: "/images/motorcycles/yz85lw.jpg",
-    gallery: ["/images/motorcycles/yz85lw.jpg"],
-    price: 30400000,
+    image: "/images/motorcycles/yz85lw.png",
+    gallery: ["/images/motorcycles/yz85lw.png"],
+    price: 25000000,
     priceLabel: "Desde",
     description: "La YZ85LW de Yamaha te ofrece el mejor rendimiento en su categoría. Descubre la tecnología y diseño que solo Yamaha puede brindar.",
     colors: [
+        { "name": "Icon Blue", "hex": "#0033cc" }
+      ],    featureBanners: [
       {
-            "name": "Color 1",
-            "hex": "#2139d3",
-            "image": "/images/motorcycles/colors/yz85lw-color-0.png"
-          }
-],    featureBanners: [],
+        title: "YPVS - Yamaha Power Valve System",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02664.jpg"
+      },
+      {
+        title: "Chasis tipo cuna",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02664.jpg"
+      }
+    ],
 
     highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
     specifications: {
@@ -1365,16 +1437,29 @@ export const motorcycles: Motorcycle[] = [
     category: "COMPETICIÓN",
     image: "/images/motorcycles/yz125.png",
     gallery: ["/images/motorcycles/yz125.png"],
-    price: 37000000,
+    price: 36000000,
     priceLabel: "Desde",
     description: "La YZ125 de Yamaha te ofrece el mejor rendimiento en su categoría. Descubre la tecnología y diseño que solo Yamaha puede brindar.",
     colors: [
+        { "name": "Icon Blue", "hex": "#0033cc" }
+      ],    featureBanners: [
       {
-            "name": "Color 1",
-            "hex": "#153bd3",
-            "image": "/images/motorcycles/colors/yz125-color-0.jpg"
-          }
-],    featureBanners: [],
+        title: "Chasis tipo cuna de aluminio",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02682.jpg"
+      },
+      {
+        title: "Suspensión trasera KYB (Speed sensitive system)",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02681.jpg"
+      },
+      {
+        title: "Sensor TPS",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YAMAHA_YRT_2026_TSC-06662.jpg"
+      },
+      {
+        title: "YPVS - Yamaha Power Valve System",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02869.jpg"
+      }
+    ],
 
     highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
     specifications: {
@@ -1433,18 +1518,43 @@ export const motorcycles: Motorcycle[] = [
     slug: "yz250f",
     name: "YZ250F",
     category: "COMPETICIÓN",
-    image: "/images/motorcycles/yz250f.jpg",
-    gallery: ["/images/motorcycles/yz250f.jpg"],
-    price: 45000000,
+    image: "/images/motorcycles/yz250f.png",
+    gallery: ["/images/motorcycles/yz250f.png"],
+    price: 43000000,
     priceLabel: "Desde",
     description: "La YZ250F de Yamaha te ofrece el mejor rendimiento en su categoría. Descubre la tecnología y diseño que solo Yamaha puede brindar.",
     colors: [
+        { "name": "Icon Blue", "hex": "#0033cc" }
+      ],    featureBanners: [
       {
-            "name": "Color 1",
-            "hex": "#000c7f",
-            "image": "/images/motorcycles/colors/yz250f-color-0.png"
-          }
-],    featureBanners: [],
+        title: "Sensor TPS",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02702.jpg"
+      },
+      {
+        title: "Aplicación Power Tuner",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/2022_YZ250_DPBSE_USA_YMUS_5549_72dpi_4000x2250_1920x748_MY22_MX_Key_Visuals_Sound_YZ250_001.jpg"
+      },
+      {
+        title: "Chasis tipo cuna aluminio",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02324.jpg"
+      },
+      {
+        title: "Mapas",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/2022_YZ250_DPBSE_USA_YMUS_5549_72dpi_4000x2250_1920x748_MY22_MX_Key_Visuals_Sound_YZ250_001.jpg"
+      },
+      {
+        title: "Traction Control System",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02324.jpg"
+      },
+      {
+        title: "Launch Control System",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02730.jpg"
+      },
+      {
+        title: "Admisión en posición adelantada",
+        image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02712.jpg"
+      }
+    ],
 
     highlights: ["Rendimiento Superior", "Diseño Aerodinámico", "Tecnología Yamaha", "Garantía Extendida"],
     specifications: {
