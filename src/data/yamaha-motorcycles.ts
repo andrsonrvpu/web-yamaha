@@ -184,40 +184,40 @@ export const motorcycles: Motorcycle[] = [
             "hex": "#0a0a0a",
             "image": "/images/motorcycles/colors/fz-version-30-color-2.png"
           }
-],    featureBanners: [
+],        featureBanners: [
       {
         title: "Blue Core",
-        description: "",
+        description: "La tecnología Blue Core de Yamaha mejora la eficiencia de combustión, reduce la pérdida de potencia y controla el suministro de combustible, ofreciendo un rendimiento óptimo y un menor consumo.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_5.jpg"
       },
       {
         title: "Fuel Injection",
-        description: "",
+        description: "El sistema de inyección electrónica proporciona una mezcla ideal de aire y combustible, logrando un arranque rápido, una aceleración suave y un menor consumo.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_6.jpg"
       },
       {
         title: "Freno de disco con ABS",
-        description: "",
+        description: "El sistema antibloqueo de frenos (ABS) evita que las ruedas se bloqueen durante el frenado brusco, manteniendo la estabilidad y control de la moto.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_7.jpg"
       },
       {
         title: "Tecnología",
-        description: "",
+        description: "Incorpora un diseño avanzado para una experiencia de conducción superior, ideal tanto para desplazamientos urbanos como para viajes.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_3.jpg"
       },
       {
         title: "Más Comodidad",
-        description: "",
+        description: "Diseñada pensando en la ergonomía del piloto, con un asiento cómodo y una postura de conducción relajada que reduce la fatiga.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_4.jpg"
       },
       {
         title: "Nuevo Tablero",
-        description: "",
+        description: "Un panel LCD digital completo y fácil de leer, que entrega toda la información fundamental para el recorrido del piloto.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_1.jpg"
       },
       {
         title: "Menos Emisiones",
-        description: "",
+        description: "Su motor eficiente asegura menores emisiones, contribuyendo al cuidado del medio ambiente mientras disfrutas el recorrido.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2024/02/yamaha_fzv3_20206_2.jpg"
       }
     ],
@@ -1558,40 +1558,40 @@ export const motorcycles: Motorcycle[] = [
     description: "La YZ250F de Yamaha te ofrece el mejor rendimiento en su categoría. Descubre la tecnología y diseño que solo Yamaha puede brindar.",
     colors: [
         { "name": "Icon Blue", "hex": "#0033cc" }
-      ],    featureBanners: [
+      ],        featureBanners: [
       {
         title: "Sensor TPS",
-        description: "",
+        description: "El sensor TPS ajusta la entrega y rendimiento de acuerdo a la apertura del acelerador para una mejor respuesta del motor.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02702.jpg"
       },
       {
         title: "Aplicación Power Tuner",
-        description: "",
+        description: "Conecta tu smartphone para ajustar la mezcla y el encendido al instante, optimizando el rendimiento de la moto a tus preferencias y condiciones de pista.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/2022_YZ250_DPBSE_USA_YMUS_5549_72dpi_4000x2250_1920x748_MY22_MX_Key_Visuals_Sound_YZ250_001.jpg"
       },
       {
         title: "Chasis tipo cuna aluminio",
-        description: "",
+        description: "El bastidor en aluminio ofrece un equilibrio excepcional entre rigidez y reducción de peso, brindando agilidad y maniobrabilidad.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02324.jpg"
       },
       {
         title: "Mapas",
-        description: "",
+        description: "Puedes seleccionar sobre la marcha dos mapas de motor para adaptar la potencia del motor a los diferentes terrenos de competencia.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/2022_YZ250_DPBSE_USA_YMUS_5549_72dpi_4000x2250_1920x748_MY22_MX_Key_Visuals_Sound_YZ250_001.jpg"
       },
       {
         title: "Traction Control System",
-        description: "",
+        description: "Minimiza la pérdida de tracción de la rueda trasera para un control perfecto durante la aceleración.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02324.jpg"
       },
       {
         title: "Launch Control System",
-        description: "",
+        description: "Controla las rpm y la entrega de potencia durante el arranque para asegurar la salida más rápida de la parrilla.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02730.jpg"
       },
       {
         title: "Admisión en posición adelantada",
-        description: "",
+        description: "Diseño optimizado del motor que invierte la culata y posiciona la admisión adelante para mejorar drásticamente el flujo de aire y rendimiento.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YAMAHA_YRT_2026_TSC-02712.jpg"
       }
     ],
