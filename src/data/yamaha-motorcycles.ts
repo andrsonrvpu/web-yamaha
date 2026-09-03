@@ -757,25 +757,25 @@ export const motorcycles: Motorcycle[] = [
             "hex": "#8224e3",
             "image": "/images/motorcycles/colors/mt15-color-2.png"
           }
-],    featureBanners: [
+],        featureBanners: [
       {
         title: "Motor de 155 cc con VVA",
-        description: "",
+        description: "Equipada con un motor de 155 cc de refrigeración líquida y tecnología de Válvulas de Apertura Variable (VVA) que ofrece un excelente rendimiento y aceleración en todo el rango de revoluciones.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-4.jpg"
       },
       {
         title: "Diseño Ágil y Agresivo",
-        description: "",
+        description: "Su diseño Hyper Naked con líneas musculosas y agresivas no solo impone presencia en la calle, sino que mejora la aerodinámica y el control urbano.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-1.jpg"
       },
       {
         title: "Tecnología de Iluminación LED",
-        description: "",
+        description: "El faro delantero con lente bifuncional LED y luces de posición gemelas brinda una visibilidad superior con un aspecto intimidante y moderno.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-3.jpg"
       },
       {
         title: "Suspensión Delantera Invertida",
-        description: "",
+        description: "La horquilla delantera invertida absorbe mejor las irregularidades y proporciona una respuesta más precisa para un manejo deportivo de alto nivel.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2023/04/mt15_2027_caract-2.jpg"
       }
     ],
@@ -974,45 +974,45 @@ export const motorcycles: Motorcycle[] = [
             "hex": "#0a0a0a",
             "image": "/images/motorcycles/colors/mt07-color-2.png"
           }
-],    featureBanners: [
+],        featureBanners: [
       {
         title: "Motor CP2",
-        description: "",
+        description: "El aclamado motor CP2 (Crossplane de 2 cilindros) de 689 cc entrega un torque lineal y contundente para una aceleración emocionante en cualquier marcha.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247631.jpg"
       },
       {
         title: "Nuevo Diseño",
-        description: "",
+        description: "Carrocería compacta y minimalista con una postura de conducción dominante, reflejando el ADN más puro de la familia MT Hyper Naked.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
       },
       {
         title: "Frenos ABS",
-        description: "",
+        description: "Sistema de frenos ABS de doble canal con potentes discos delanteros y traseros que aseguran una frenada precisa y segura en diversas condiciones de adherencia.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247632.jpg"
       },
       {
         title: "Comfort para piloto y pasajero",
-        description: "",
+        description: "Asientos de nuevo diseño y una posición de conducción ergonómicamente perfeccionada para mayor comodidad en viajes largos y trayectos diarios.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247633.jpg"
       },
       {
         title: "Mejor control de la MT07",
-        description: "",
+        description: "El manillar más ancho, junto con su chasis ligero, mejora significativamente la palanca y la agilidad para un control total en curvas.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247634.jpg"
       },
       {
         title: "Iluminación de nueva generación",
-        description: "",
+        description: "Faros y direccionales LED con un característico diseño en forma de Y que aumentan la visibilidad y le otorgan una mirada agresiva y distintiva.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
       },
       {
         title: "Nuevo tablero TFT",
-        description: "",
+        description: "Pantalla TFT a color de 5 pulgadas con conectividad para smartphones que permite al piloto elegir entre diferentes temas de visualización.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e17398245247635.jpg"
       },
       {
         title: "Gestión visual del flujo de aire",
-        description: "",
+        description: "Las tomas de aire laterales han sido diseñadas no solo para un impacto visual imponente, sino para redirigir eficientemente el flujo de aire al motor.",
         image: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/componentes-mt07-22-3-e1739824524763-1.jpg"
       }
     ],
