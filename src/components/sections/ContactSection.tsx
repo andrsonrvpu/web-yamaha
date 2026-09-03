@@ -4,6 +4,19 @@ import { siteConfig } from "@/config/site";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export function ContactSection() {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const name = formData.get("name") as string;
+    const phone = formData.get("phone") as string;
+    const subject = formData.get("subject") as string;
+    const message = formData.get("message") as string;
+
+    const whatsappMessage = `*Nuevo contacto desde la web*\n\n*Nombre:* ${name}\n*Teléfono:* ${phone}\n*Asunto:* ${subject}\n*Mensaje:* ${message}`;
+    const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <div className="container-yamaha py-16">
       <div className="max-w-4xl mx-auto">
@@ -63,32 +76,32 @@ export function ContactSection() {
             <h2 className="text-2xl font-bold text-yamaha-dark uppercase tracking-wider mb-6">
               Envíanos un mensaje
             </h2>
-            <form className="flex flex-col gap-4" onSubmit={(e) => { e.preventDefault(); alert("Formulario enviado (simulación)"); }}>
+            <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
               <div>
                 <label htmlFor="name" className="block text-sm font-bold text-gray-700 mb-1">Nombre Completo *</label>
-                <input type="text" id="name" required className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red" />
+                <input type="text" id="name" name="name" required className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red" />
               </div>
               
               <div className="grid grid-cols-1 gap-4">
                 <div>
                   <label htmlFor="phone" className="block text-sm font-bold text-gray-700 mb-1">Teléfono *</label>
-                  <input type="tel" id="phone" required className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red" />
+                  <input type="tel" id="phone" name="phone" required className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red" />
                 </div>
               </div>
 
               <div>
                 <label htmlFor="subject" className="block text-sm font-bold text-gray-700 mb-1">Asunto</label>
-                <select id="subject" className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red bg-white">
-                  <option>Información sobre motocicleta</option>
-                  <option>Servicio Técnico</option>
-                  <option>Repuestos y Accesorios</option>
-                  <option>Otro</option>
+                <select id="subject" name="subject" className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red bg-white">
+                  <option value="Información sobre motocicleta">Información sobre motocicleta</option>
+                  <option value="Servicio Técnico">Servicio Técnico</option>
+                  <option value="Repuestos y Accesorios">Repuestos y Accesorios</option>
+                  <option value="Otro">Otro</option>
                 </select>
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-bold text-gray-700 mb-1">Mensaje *</label>
-                <textarea id="message" rows={4} required className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red"></textarea>
+                <textarea id="message" name="message" rows={4} required className="w-full border border-yamaha-light-gray p-3 focus:outline-none focus:border-yamaha-red"></textarea>
               </div>
 
               <div className="flex items-start gap-2 mt-2">
