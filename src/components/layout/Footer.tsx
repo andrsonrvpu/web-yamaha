@@ -65,10 +65,14 @@ export function Footer() {
           <p className="text-sm text-gray-400 text-center md:text-left">
             © {new Date().getFullYear()} {siteConfig.businessName}. Todos los derechos reservados.
           </p>
-          <div className="flex items-center gap-2">
-            <span className="text-yamaha-red font-bold text-xl tracking-tighter uppercase">
-              YAMAHA
-            </span>
+          <div className="flex items-center gap-4">
+            <Image 
+              src="/images/incolmotos-50-anos.png" 
+              alt="50 Años Incolmotos Yamaha" 
+              width={160} 
+              height={120} 
+              className="object-contain w-32 md:w-40 h-auto"
+            />
           </div>
         </div>
       </div>
