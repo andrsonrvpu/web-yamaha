@@ -66,6 +66,9 @@ export function Footer() {
             © {new Date().getFullYear()} {siteConfig.businessName}. Todos los derechos reservados.
           </p>
           <div className="flex items-center gap-4">
+            <span className="text-yamaha-red font-bold text-xl tracking-tighter uppercase">
+              YAMAHA
+            </span>
             <Image 
               src="/images/incolmotos-50-anos.png" 
               alt="50 Años Incolmotos Yamaha" 
