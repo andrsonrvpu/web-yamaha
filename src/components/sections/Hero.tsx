@@ -8,6 +8,7 @@ import { ChevronRight, ChevronLeft } from "lucide-react";
 export interface SlideData {
   id: string;
   imageSrc: string;
+  mobileImageSrc?: string;
   videoSrc?: string;
   primaryCtaText?: string;
   primaryCtaLink?: string;
@@ -101,11 +102,17 @@ export function Hero({ slides, autoPlayInterval = 5000 }: HeroProps) {
               <source src={currentSlide.videoSrc} type="video/mp4" />
             </video>
           ) : (
-            <img
-              src={currentSlide.imageSrc}
-              alt="Yamaha Banner"
-              className="absolute inset-0 w-full h-full object-cover object-center bg-yamaha-dark"
-            />
+            <picture>
+              {currentSlide.mobileImageSrc && (
+                <source media="(max-width: 767px)" srcSet={currentSlide.mobileImageSrc} />
+              )}
+              <source media="(min-width: 768px)" srcSet={currentSlide.imageSrc} />
+              <img
+                src={currentSlide.imageSrc}
+                alt="Yamaha Banner"
+                className="absolute inset-0 w-full h-full object-cover object-center bg-yamaha-dark"
+              />
+            </picture>
           )}
 
           {/* Gradient Overlay - Always show a light gradient so nav is visible, or remove it */}

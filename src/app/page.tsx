@@ -15,6 +15,7 @@ export default function Home() {
     {
       id: "blue-days",
       imageSrc: "/images/hero-blue-days.png",
+      mobileImageSrc: "/images/mobile-hero-1.png",
       primaryCtaText: "Cotiza Aquí",
       primaryCtaLink: "/contacto",
       secondaryCtaText: "Ver Modelos",
@@ -23,6 +24,7 @@ export default function Home() {
     {
       id: "second-banner",
       imageSrc: "/images/hero-banner-2.png",
+      mobileImageSrc: "/images/mobile-hero-2.png",
       primaryCtaText: "COTIZA AQUÍ",
       primaryCtaLink: "/cotizar",
       secondaryCtaText: "VER MODELOS",
@@ -31,6 +33,7 @@ export default function Home() {
     {
       id: "third-banner",
       imageSrc: "/images/hero-banner-3.png",
+      mobileImageSrc: "/images/mobile-hero-3.png",
       primaryCtaText: "COTIZA AQUÍ",
       primaryCtaLink: "/cotizar",
       secondaryCtaText: "VER MODELOS",
