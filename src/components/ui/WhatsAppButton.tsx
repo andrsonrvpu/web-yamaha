@@ -32,6 +32,13 @@ export function WhatsAppButton() {
           href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent("Hola, quisiera recibir más información.")}`}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+  if (typeof window !== "undefined" && (window as any).gtag) {
+    (window as any).gtag('event', 'conversion', {
+      'send_to': 'AW-18430660651/chKxCMLg2e4cEKugttRE'
+    });
+  }
+}}
           className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-shadow flex items-center justify-center"
           aria-label="Contactar por WhatsApp"
         >
