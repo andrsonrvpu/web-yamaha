@@ -50,6 +50,7 @@ export default function RootLayout({
     <html lang="es-CO" className="scroll-smooth overflow-x-hidden">
       <body className={`${inter.variable} font-sans bg-background text-foreground flex flex-col min-h-screen pt-16 md:pt-20 overflow-x-hidden w-full relative`}>
         {process.env.NEXT_PUBLIC_GA_ID && <GoogleAnalytics ga_id={process.env.NEXT_PUBLIC_GA_ID} />}
+        <GoogleAnalytics ga_id="AW-18430660651" />
         <Header />
         <main className="flex-grow overflow-x-hidden w-full">
           {children}
