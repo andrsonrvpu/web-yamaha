@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const categories = [
@@ -76,22 +77,23 @@ export function CategoryGrid() {
             }}
           >
             <Link href={`/motos?categoria=${encodeURIComponent(cat.name)}`} className="block w-full h-full relative">
-              {cat.video ? (
+              <Image 
+                src={cat.image} 
+                alt={cat.name} 
+                fill
+                sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+                className={`object-cover transition-transform duration-700 group-hover:scale-105 ${cat.objectPosition || 'object-center'}`}
+              />
+              {cat.video && (
                 <video
-                  src={`${cat.video}#t=0.001`}
+                  src={cat.video}
                   muted
                   loop
                   playsInline
                   preload="none"
                   disablePictureInPicture
                   disableRemotePlayback
-                  className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${cat.objectPosition || 'object-center'}`}
-                />
-              ) : (
-                <img 
-                  src={cat.image} 
-                  alt={cat.name} 
-                  className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${cat.objectPosition || 'object-center'}`}
+                  className={`absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${cat.objectPosition || 'object-center'}`}
                 />
               )}
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-300 pointer-events-none" />
