@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const categories = [
   // Fila 1 (y parte de la 2 para Hyper Naked)
@@ -18,6 +19,8 @@ const categories = [
 ];
 
 export function CategoryGrid() {
+  const [activeCard, setActiveCard] = useState<string | null>(null);
+
   return (
     <section className="bg-white pb-0">
       <div className="py-6 flex justify-center">
@@ -28,15 +31,19 @@ export function CategoryGrid() {
       
       {/* Contenedor Full Width, 12 columnas (PC) o 2 columnas asimétrico (Móvil) */}
       <div className="w-full grid grid-cols-2 auto-rows-[45vw] md:grid-cols-12 md:grid-rows-6 md:auto-rows-auto gap-0 h-auto md:h-[600px] lg:h-[800px]">
-        {categories.map((cat, index) => (
+        {categories.map((cat, index) => {
+          const isActive = activeCard === cat.name;
+          
+          return (
           <motion.div
             key={cat.name}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: index * 0.05 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.6, delay: index * 0.05, ease: "easeOut" }}
             className={`relative group overflow-hidden bg-yamaha-dark ${cat.position} w-full h-full`}
             onMouseEnter={(e) => {
+              setActiveCard(cat.name);
               const video = e.currentTarget.querySelector("video");
               if (video) {
                 const playPromise = video.play();
@@ -46,6 +53,7 @@ export function CategoryGrid() {
               }
             }}
             onMouseLeave={(e) => {
+              setActiveCard(null);
               const video = e.currentTarget.querySelector("video");
               if (video) {
                 video.pause();
@@ -53,6 +61,7 @@ export function CategoryGrid() {
               }
             }}
             onTouchStart={(e) => {
+              setActiveCard(cat.name);
               const video = e.currentTarget.querySelector("video");
               if (video) {
                 const playPromise = video.play();
@@ -62,13 +71,20 @@ export function CategoryGrid() {
               }
             }}
             onTouchEnd={(e) => {
+              // Dejamos un pequeño delay antes de quitar el estado para que se vea la animación
+              setTimeout(() => setActiveCard(null), 300);
               const video = e.currentTarget.querySelector("video");
               if (video) {
-                video.pause();
-                video.currentTime = 0.001;
+                setTimeout(() => {
+                  if (activeCard !== cat.name) {
+                    video.pause();
+                    video.currentTime = 0.001;
+                  }
+                }, 300);
               }
             }}
             onTouchCancel={(e) => {
+              setActiveCard(null);
               const video = e.currentTarget.querySelector("video");
               if (video) {
                 video.pause();
@@ -82,7 +98,7 @@ export function CategoryGrid() {
                 alt={cat.name} 
                 fill
                 sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
-                className={`object-cover transition-transform duration-700 group-hover:scale-105 ${cat.objectPosition || 'object-center'}`}
+                className={`object-cover transition-transform duration-700 ${isActive ? 'scale-105' : 'group-hover:scale-105'} ${cat.objectPosition || 'object-center'}`}
               />
               {cat.video && (
                 <video
@@ -93,10 +109,10 @@ export function CategoryGrid() {
                   preload="none"
                   disablePictureInPicture
                   disableRemotePlayback
-                  className={`absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${cat.objectPosition || 'object-center'}`}
+                  className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${isActive ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'} ${cat.objectPosition || 'object-center'}`}
                 />
               )}
-              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-300 pointer-events-none" />
+              <div className={`absolute inset-0 transition-colors duration-300 pointer-events-none ${isActive ? 'bg-transparent' : 'bg-black/20 group-hover:bg-transparent'}`} />
               
               {/* Etiqueta estilo Yamaha */}
               <div className="absolute top-4 left-4 md:top-6 md:left-6 flex items-start">
@@ -106,7 +122,8 @@ export function CategoryGrid() {
               </div>
             </Link>
           </motion.div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
