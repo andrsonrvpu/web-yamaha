@@ -17,7 +17,6 @@ export function AnalyticsManager() {
       {/* Consent Mode (Default: Denied to comply with GDPR/Cookies laws before user action) */}
       <Script
         id="google-consent-mode"
-        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];

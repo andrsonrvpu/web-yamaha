@@ -1,3 +1,10 @@
+declare global {
+  interface Window {
+    dataLayer: unknown[];
+    gtag: (...args: unknown[]) => void;
+  }
+}
+
 export type TrackEventName = 
   | 'click_phone' 
   | 'click_whatsapp' 
@@ -7,21 +14,21 @@ export type TrackEventName =
   | 'click_motorcycle' 
   | 'click_request_information';
 
-export const trackEvent = (eventName: TrackEventName, eventParams?: Record<string, any>) => {
+export const trackEvent = (eventName: TrackEventName, eventParams?: Record<string, string | number | boolean | null | undefined>) => {
   // Asegurarse de que el código corre en el cliente
   if (typeof window === 'undefined') return;
 
   // 1. Compatibilidad con Google Tag Manager (DataLayer)
-  if ((window as any).dataLayer) {
-    (window as any).dataLayer.push({
+  if (window.dataLayer) {
+    window.dataLayer.push({
       event: eventName,
       ...eventParams
     });
   }
 
   // 2. Compatibilidad Directa con GA4 / Google Ads (gtag.js)
-  if (typeof (window as any).gtag === 'function') {
-    (window as any).gtag('event', eventName, eventParams);
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', eventName, eventParams);
     triggerGoogleAdsConversion(eventName);
   }
 };
@@ -50,8 +57,10 @@ const triggerGoogleAdsConversion = (eventName: TrackEventName) => {
 
   // Solo si se configuraron el ID general y el label de la conversión específica
   if (adsId && conversionLabel) {
-    (window as any).gtag('event', 'conversion', {
-      'send_to': `${adsId}/${conversionLabel}`
-    });
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', {
+        'send_to': `${adsId}/${conversionLabel}`
+      });
+    }
   }
 };
