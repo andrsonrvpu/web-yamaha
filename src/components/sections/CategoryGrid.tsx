@@ -82,7 +82,7 @@ export function CategoryGrid() {
                   muted
                   loop
                   playsInline
-                  preload="metadata"
+                  preload="none"
                   disablePictureInPicture
                   disableRemotePlayback
                   className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${cat.objectPosition || 'object-center'}`}
