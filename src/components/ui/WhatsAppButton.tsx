@@ -35,7 +35,12 @@ export function WhatsAppButton() {
           rel="noopener noreferrer"
           id="btn-whatsapp-float"
           data-event="click_whatsapp"
-          onClick={() => trackEvent('click_whatsapp', { source: 'floating_button' })}
+          onClick={() => {
+            trackEvent('click_whatsapp', { source: 'floating_button' });
+            if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+              window.gtag('event', 'conversion', { send_to: 'AW-18430660651/Io-rCJyO14EdEKugttRE' });
+            }
+          }}
           className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-shadow flex items-center justify-center"
           aria-label="Contactar por WhatsApp"
         >
